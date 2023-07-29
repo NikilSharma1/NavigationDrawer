@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NavigationDrawerDemo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+<!--    STYLE FOR NAVIGATION DRAWER ITEM FOR ITS CUSTOMIZATION-->
+    <style name="NavDrawerTextStyle" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textColor">@color/design_default_color_primary_dark</item>
+        <item name="android:textSize">16sp</item>
+<!--        <item name="app:itemIconSize">40dp</item>-->
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.NavigationDrawerDemo" parent="Base.Theme.NavigationDrawerDemo" />
+</resources>
